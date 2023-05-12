@@ -1,0 +1,12 @@
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\bin\Debug\net7.0\AssignmentData.deps.json
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\bin\Debug\net7.0\AssignmentData.dll
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\bin\Debug\net7.0\AssignmentData.pdb
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\obj\Debug\net7.0\AssignmentData.csproj.AssemblyReference.cache
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\obj\Debug\net7.0\AssignmentData.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\obj\Debug\net7.0\AssignmentData.AssemblyInfoInputs.cache
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\obj\Debug\net7.0\AssignmentData.AssemblyInfo.cs
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\obj\Debug\net7.0\AssignmentData.csproj.CoreCompileInputs.cache
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\obj\Debug\net7.0\AssignmentData.dll
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\obj\Debug\net7.0\refint\AssignmentData.dll
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\obj\Debug\net7.0\AssignmentData.pdb
+D:\ZUBAIR\C-Dac\Project\QHRM\AssignmentUI\AssignmentData\obj\Debug\net7.0\ref\AssignmentData.dll

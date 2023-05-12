@@ -1,0 +1,47 @@
+﻿@model Products
+@{
+}
+
+
+<h3>Add Product</h3>
+
+<a href="/Product/DisplayAll" class="my-2 btn btn-primary">Display All</a>
+
+<form asp-action="Add">
+
+    <div class="mb-3">
+        <label asp-for="Product" class="form-label">Product</label>
+        <input asp-for="Product" type="text" class="form-control">
+
+        <span class="text-danger" asp-validation-for="Product"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Discription" class="form-label">Description</label>
+        <input asp-for="Discription" type="text" class="form-control">
+
+        <span class="text-danger" asp-validation-for="Discription"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Created" class="form-label">
+            Created
+        </label>
+        <input class="form-control" asp-for="Created" type="datetime-local">
+
+        <span class="text-danger" asp-validation-for="Created"></span>
+    </div>
+
+    @if (TempData["msg"] != null)
+    {
+        <div class="mb-3">
+            @TempData["msg"]
+        </div>
+    }
+
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+
+</form>
+

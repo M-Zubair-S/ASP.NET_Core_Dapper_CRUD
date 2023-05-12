@@ -1,0 +1,36 @@
+﻿@model IEnumerable<AssignmentData.Models.Domain.Products>
+
+@{
+}
+
+<h3>Product list</h3>
+
+<div class="my-2">
+    <a href="/Product/Add" class="btn btn-info my-2">Add more</a>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Created</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Product</td>
+                    <td>@product.Discription</td>
+                    <td>@product.Created</td>
+                    <td>
+                        <a href="/Product/Edit?id=@product.Id" class="btn btn-success">Edit</a>
+                        <a href="/Product/Delete?id=@product.Id" onclick="return window.confirm('Arey you sure to delete this record?')" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
